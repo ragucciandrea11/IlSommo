@@ -103,7 +103,7 @@ a{
 	color: #ff9900;
 }
 /*VISUALIZZAZIONE DA MOBILE ORIZZONTALE*/
-@media (max-width: 1000px) {
+@media (max-width: 1116px) {
 	.img-vita , .img-vita2{
 		margin: 0;
 		padding: 10px;
