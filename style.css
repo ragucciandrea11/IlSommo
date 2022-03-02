@@ -125,7 +125,12 @@ a{
 .int{
 	color: darkred;
 }
-
+#header-div{
+	text-align: center;
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
 @media (max-width: 1116px) {
 	.img-vita , .img-vita2{
 		margin: 0;
@@ -142,11 +147,11 @@ a{
 }
 @media (max-width: 950px){
 	.luogo-div{
-		height: 700px;
+		height: 800px;
 	}
 	.img-luogo{
 		position: static;
-		width: 300px;
+		width: 285px;
 		height: 300px;
 		text-align: center;
 	}
