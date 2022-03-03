@@ -161,3 +161,11 @@ a{
 		text-align: static;
 	}
 }
+
+
+table, th, td {
+	border: 2px solid black;
+}
+table td:hover{
+	background-color: #4d2600;
+}
