@@ -1,0 +1,163 @@
+body{
+	font-family: Corbel, Arial, sans-serif;
+	margin: 0;
+	background-color: #DEB887;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+#header{
+	background-color: #663300;
+	text-align: center;
+}
+#header-home{
+	margin: 0;
+	padding: 0;
+	padding-left: 3%;
+	color: white;
+	background-color: #331a00;
+	font-size: 30px;
+}
+#nav{
+	background-color: #4d2600;
+	text-align: center;
+	list-style-type: none;
+}
+#nav li{
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+	font-size: 20px;
+}
+#nav li a{
+	color: #ffffff;
+	font-size: 20px;
+}
+#nav li:hover{
+	background-color: #994d00;
+}
+#image-dante{
+	padding-top: 10px;
+	padding-left: 3%;
+}
+#title-news{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	padding: 20px;
+	border: #4d2600 dotted 5px;
+}
+.news{
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 25px;
+}
+.button {
+	font-size: 20px;
+	font-family: fantasy;
+	background-color: #a2c3c3;
+    color: black;
+	cursor: pointer;
+	text-align: center;
+	margin:4px 2px;
+	border: solid 2px;
+	text-decoration: none;
+	display: inline-block;
+	width: 250px;
+}
+.button:hover{
+	background-color: #eff5f5;
+}
+.p-stile, #p-resp{
+	margin: 5px;
+	position: relative;
+	float: left;
+	width: 35%;
+	height: 300px;
+	font-size: 26px;
+}
+.img-vita, .img-vita2{
+	padding: 0;
+	margin: 10px;
+	position: relative;
+	float: left;
+
+}
+.sfondo-opere{
+	margin-left: 70px;
+	margin-right: 70px;
+    background-color: #663300 !important;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    color: #fff !important;
+}
+.title-opere{
+	text-align: center;
+	font-family: fantasy;
+	color: #00ffff;
+}
+.text-opere{
+	font-size: 25px;
+	position: relative;
+	float: center;
+	color: #ff9900;
+}
+.luogo-div{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #995c00;
+	width: auto;
+	height: auto;
+}
+.img-luogo{
+	position: relative;
+	width: 30%;
+	height: 300px;
+}
+.text{
+	position: relative;
+	float: right;
+	text-align: left;
+	width: 60%;
+	font-size: 25px;
+	height: 250px;
+}
+.int{
+	color: darkred;
+}
+#header-div{
+	text-align: center;
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+@media (max-width: 1116px) {
+	.img-vita , .img-vita2{
+		margin: 0;
+		padding: 10px;
+		display: none;
+		height: auto;
+	}
+	.p-stile{
+		display: none;
+	}
+	#p-resp{
+		width: 100%;
+	}
+}
+@media (max-width: 950px){
+	.luogo-div{
+		height: 800px;
+	}
+	.img-luogo{
+		position: static;
+		width: 285px;
+		height: 300px;
+		text-align: center;
+	}
+	.text{
+		position: static;
+		width: auto;
+		text-align: static;
+	}
+}
