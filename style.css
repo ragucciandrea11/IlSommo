@@ -1,14 +1,14 @@
 body{
 	font-family: Corbel, Arial, sans-serif;
 	margin: 0;
-	background-color: #DEB887;
+	background-color: white;
 }
 a{
 	color: #000000;
 	text-decoration: none;
 }
 #header{
-	background-color: #663300;
+	background-color: #cc0000;
 	text-align: center;
 }
 #header-home{
@@ -16,13 +16,15 @@ a{
 	padding: 0;
 	padding-left: 3%;
 	color: white;
-	background-color: #331a00;
+	background-color: #990000;
 	font-size: 30px;
 }
 #nav{
-	background-color: #4d2600;
+	background-color: #cc0000;
 	text-align: center;
 	list-style-type: none;
+        padding-left: 5%;
+        padding-right: 5%;
 }
 #nav li{
 	display: inline-block;
@@ -34,7 +36,7 @@ a{
 	font-size: 20px;
 }
 #nav li:hover{
-	background-color: #994d00;
+	background-color: #ff6666;
 }
 #image-dante{
 	padding-top: 10px;
@@ -45,7 +47,8 @@ a{
 	font-weight: bold;
 	color: red;
 	padding: 20px;
-	border: #4d2600 dotted 5px;
+	border: red outset 5px;
+	font-family: fantasy;
 }
 .news{
 	padding-right: 10px;
@@ -55,8 +58,8 @@ a{
 .button {
 	font-size: 20px;
 	font-family: fantasy;
-	background-color: #a2c3c3;
-    color: black;
+	background-color: #ffcccc;
+    color: red;
 	cursor: pointer;
 	text-align: center;
 	margin:4px 2px;
@@ -64,9 +67,12 @@ a{
 	text-decoration: none;
 	display: inline-block;
 	width: 250px;
+	border-radius: 12px;
+	
+	
 }
 .button:hover{
-	background-color: #eff5f5;
+	background-color: #ff4d4d;
 }
 .p-stile, #p-resp{
 	margin: 5px;
@@ -86,26 +92,26 @@ a{
 .sfondo-opere{
 	margin-left: 70px;
 	margin-right: 70px;
-    background-color: #663300 !important;
+    background-color: #cc0000 !important;
     padding-right: 5% !important;
     padding-left: 5% !important;
     color: #fff !important;
 }
 .title-opere{
 	text-align: center;
-	font-family: fantasy;
-	color: #00ffff;
+	font-family: Geneva;
+	color: white;
 }
 .text-opere{
 	font-size: 25px;
 	position: relative;
 	float: center;
-	color: #ff9900;
+	color: white;
 }
 .luogo-div{
 	margin-left: 10%;
 	margin-right: 10%;
-	background-color: #995c00;
+	background-color: #cc0000;
 	width: auto;
 	height: auto;
 }
@@ -121,9 +127,11 @@ a{
 	width: 60%;
 	font-size: 25px;
 	height: 250px;
+	color:white;
 }
 .int{
-	color: darkred;
+	color: white;
+	font-family: Geneva;
 }
 #header-div{
 	text-align: center;
@@ -164,8 +172,16 @@ a{
 
 
 table, th, td {
-	border: 2px solid black;
+	border: 2px outset #cc0000;
+     
+     
 }
 table td:hover{
-	background-color: #4d2600;
+	background-color: #cc0000;
+}
+
+td {
+
+ font-family: Geneva;
+
 }
