@@ -1,0 +1,11 @@
+@media (max-width: 951px) {
+    .luogo-div{
+        height: 630px;
+    }
+    .img-luogo{
+        width: 100%;
+    }
+    .text{
+        margin: 10px;
+    }
+}
