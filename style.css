@@ -154,9 +154,6 @@ a{
 	}
 }
 @media (max-width: 950px){
-	.luogo-div{
-		height: 800px;
-	}
 	.img-luogo{
 		position: static;
 		width: 285px;
